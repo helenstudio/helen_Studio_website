@@ -1,0 +1,323 @@
+/* TITLE*/
+h1{
+    color:darkblue;
+    padding-left: 82px
+    text-shadow: 2px 2px 5px red;
+    font-size: 18px;
+    font-family:sans-serif;
+    position: relative;
+    left: 62px;
+    top:-57px;
+}
+
+/* NAVIGATION BAR */
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    background-color:black;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    box-shadow: 4px 6px 3px grey;
+    z-index: 9;
+    
+}
+
+li{
+    
+    float:right;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration:none;
+    font-weight: bolder;
+    font-family:helenFont1;
+    font-size: 18px; 
+   
+}
+li a:hover{
+background-color:;
+    font-weight: bolder;
+text-decoration-line: none;
+   color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+.active{
+    background-color:black;
+}
+
+
+@font-face{
+    font-family:helenFont;
+    src:url(kano.otf);
+}
+
+@font-face{
+    font-family:helenFont1;
+    src:url(oneday.otf);
+}
+
+/* SUBTITLE SETTINGS*/
+p.subtitle{
+    font-size: 8px;
+    font-weight:bold;
+    font-style: normal;
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+/* Footer */
+.footer {
+  padding: 150px;
+  text-align: center;
+  background-color:black;
+  margin-top: 50px;
+  box-sizing: border-box;  
+}
+
+.p1{
+    text-justify: auto;
+    justify-content: space-between;
+}
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.fas fa-home{
+    
+    color:white;
+    
+}
+
+/* SLIDESHOW/CAROUSEL*/
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+    
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-fliud {
+  position: relative;
+    
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+    margin-top: -16px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor:alias;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+    color: salmon;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(105, 162, 134, 12);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 13px 20px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float:left ;
+  width: 16.46%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*SCROLLBAR CUSTOMIZATION*/
+::-webkit-scrollbar{
+      width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;   
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:darkgray; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:grey; 
+}
+
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* TITLE FONT*/
+h1{
+font-family: 'Pacifico', serif;
+}
+.font-effect-shadow-multiple {
+  text-shadow: .04em .04em 0 #fff,.08em .08em 0 #aaa;
+  -webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
+}
+
+
+/*TITLE SUBTITLE*/
+.subtitle{
+font-family: 'Doppio One', sans-serif;  
+}
+
+
+.div1{
+    border-left: 10px solid black;
+    border: 4px solid black;
+    background-color: blue;
+    height :400px;
+    box-shadow: 4px 6px 3px grey;
+    background-image: linear-gradient(to right,blue,skyblue);
+}
+
+
+.div1:hover{
+        box-shadow: 4px 6px 3px grey;
+}
+
+/*SIGN IN BUTTON*/
+.button1{
+background-color: green;
+border: 1px solid gold;
+width: 120px;
+border-radius: 15px;
+background-image: linear-gradient(to right, green,limegreen);
+color: azure;
+margin-left: 773px;
+margin-top: -224px;
+font-size:15px;
+}
+ .button1:hover{ box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 10px 15px 0 rgba(0,0,0,0.19);
+}
+.button1:active {
+  background-color:silver;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*SIGN UP BUTTON*/
+
+.button2{
+ background-color: darkred;
+ border: 1px solid gold;
+ width: 120px;
+ border-radius: 15px;
+ background-image: linear-gradient(to right, darkred,red);
+ color: azure;
+ margin-left: -2px;
+ margin-top: -224px;
+ font-size:15px;
+}
+
+.button2:hover{
+   box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 10px 15px 0 rgba(0,0,0,0.19); 
+}
+
+.button2:active {
+  background-color: silver;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/*GAME VIDEO*/
+
+.gamevideo1{
+  margin-left: 641px;
+    margin-top: -39px
+}
+
+
+/* OPERATION SUICIDE */
+.ops{
+    
+    font-family: 'Black Ops One', serif;
+    
+}
